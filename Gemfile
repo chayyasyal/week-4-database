@@ -4,8 +4,10 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "rspec/capybara"
+gem "sinatra"
 gem "rspec"
 gem "capybara"
 gem "selenium-webdriver"
+gem "data_mapper"
+gem "dm-postgres-adapter"
 # gem "rails"
