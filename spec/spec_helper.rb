@@ -1,11 +1,13 @@
-require 'rspec'
-require 'capybara'
-require 'capybara/rspec'
-# require_relative '../app.rb'
-require './app/models/link'
-require './app/app'
-# require
 ENV['RACK_ENV'] = 'test'
+require 'capybara/rspec'
+# require 'simplecov'
+# require 'simplecov-console'
+require 'rspec'
+# require_relative '../app.rb'
+require_relative '../models/link'
+require_relative '../app.rb'
+
+# require
 # require File.join(File.dirname(__FILE__), ‘..’, ‘app.rb’)
 
 Capybara.app = BookmarkManager
