@@ -11,4 +11,5 @@ gem 'rack-app'
 gem "selenium-webdriver"
 gem "data_mapper"
 gem "dm-postgres-adapter"
+gem "database_cleaner"
 # gem "rails"
